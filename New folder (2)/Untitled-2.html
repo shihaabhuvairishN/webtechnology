@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center><head>Online Shopping Form</head></center>
+<form method="get">
+<table cellspacing="3" cellpadding="8" align="center">
+<tr>
+<td>
+     <label for=Name">Name</label>
+</td>
+<td>
+     <input type="text" placeholder="Enter your name" pattern="[A-Z a-z]" required /> 
+</td>
+</tr>
+<tr>
+<td>
+    <label for="dob">DOB</label>
+</td>
+<td>
+    <input type="date" placeholder="dob" required />
+</td>
+</tr>
+<tr>
+<td>
+<label for="gender">Gender</label>
+</td>
+<td>
+    <input type="radio" name="gender" value="male" required />Male
+    <input type="radio" name="gender" value="female" />Female
+    <input type="radio" name="gender" value="other" />Other
+</td>
+</tr>
+<td>
+     <label for="email">Email</label>
+</td>
+<td>
+     <input type="email" placeholder=" Enter your email" required />
+</td>
+</tr>
+<tr>
+<td>
+     <label for="mobile">Mobile</label>
+</td>
+<td>
+     <input type="tel"  placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required />
+</td>
+</tr>
+<tr>
+<td>
+     <label for="address">Delivery Address</label>
+</td>
+<td>
+    <textarea name="address"  placeholder="Enter your address" cols="50" rows="5" required></textarea>
+</td>
+</tr>
+<tr>
+<td>
+     <label for="city">City</label>
+</td>
+<td>
+    <input type="text" placeholder="Enter your City" required />
+</td>
+</tr>
+<tr>
+<td>
+   <label for="pincode">Pincode</label>
+</td>
+<td>
+    <input type="numeric" placeholder="Enter your pincode" pattern-"[0-1]" maxlength="6" required />
+</td>
+</tr>
+<tr>
+<td>
+    <label for="product interested">Product interested</label>
+</td>
+<td>
+    <input type="checkbox" name="click the product interested" value="door" required  />door
+	<input type="checkbox" name="click the product interested" value="window" />window
+	<input type="checkbox" name="click the product interested" value="sofa" />sofa
+	<input type="checkbox" name="click the product interested" value="chair" />chair
+	<input type="checkbox" name="click the product interested" value="bed" />bed
+</td>
+</tr>
+<tr>
+<td>
+   <label for="emi option required">EMI option required</label>
+</td>
+<td>
+    <input type="radio" name="emi option required" value="yes" required />YES
+	<input type="radio" name="emi option required" value="no" required />NO
+</td>
+</tr>
+<tr>
+<td>
+    <label for="purchase mode">Purchase mode</label>
+</td>
+<td>
+    <input type="radio" name="purchase mode" value="online" required />Online
+	<input type="radio" name="purchase mode" value="offline" required />Offline 
+</td>
+</tr>
+<tr>
+<td>
+    <input type="reset" name="reset">
+</td>
+<td>
+    <input type="submit" name="submit">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
